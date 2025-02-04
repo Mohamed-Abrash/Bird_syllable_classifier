@@ -1,0 +1,18 @@
+As example, start with song 13B04 which has been cut into strophes and syllables which are  stored in the matrix Xmat13B04 as 37 strophe matrices with the syllables as column vectors in each Xmat13B04_strono, where  ( : , :, 1) is the syllable data given with corresponding original song sample indices in ( : , :, 2). The sample frequency is 44100 Hz. In labelfile13B04 the corresponding true similarity scores between two subsequent syllables in a strophe are given as ‘1’ for similar and ‘0’ for not similar. 
+
+Use labelidentifier to plot a pair of subsequent syllables from a chosen strophe (strono=7) as signals and spectrograms. The similarity score is presented between the plotted syllable signals marks with label ‘1’ if they are similar and ‘0’ if they are not similar. Note that the sample frequency is reduced a factor 4 to Fs=11025 Hz.
+
+
+Song of two birds on three following years:
+
+1989:
+H7-3: Song 13B04
+V-99: Song 14A03
+ 
+1990:
+H7-3: Song 19A04
+V-99: Song 19A01 
+ 
+1991:
+H7-3: Song 23B05
+V-99: Song 23A01
